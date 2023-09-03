@@ -1,0 +1,11 @@
+#Conguration Port
+server:
+  port: 9000
+
+spring:
+  security:
+    oauth2:
+      resource-server:
+        jwt:
+          issuer-uri: http://localhost:8080/oauth2/jwks
+
